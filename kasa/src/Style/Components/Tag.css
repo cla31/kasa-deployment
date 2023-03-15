@@ -1,0 +1,40 @@
+.tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--blanc);
+    font-size: 14px;
+    background-color: var(--rouge);
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 150px;
+    height: 25px;
+    /* border: blue solid 2px; */
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .tag {
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 768px) {
+    .tag {
+        margin-bottom: 5px;
+        width: 110px;
+        height: 25px;
+        margin-right: 3px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .tag {
+        font-size: 10px;
+        width: 108px;
+        margin-bottom: 5px;
+        margin-right: 3px;
+        border-radius: 5px;
+        /* border: blue solid 2px; */
+    }
+}

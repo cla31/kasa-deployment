@@ -1,0 +1,54 @@
+/* .Home {
+    border: purple 3px solid;
+} */
+
+.GalleryLogements {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 829px;
+    border-radius: 25px;
+    background-color: var(--grisclair);
+    margin-top: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 100px;
+    margin-right: 0px;
+    padding-top: 40px;
+    overflow-y: scroll;
+    /* border: 2px solid red; */
+}
+
+.GalleryLogements::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .GalleryLogements {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 768px) {
+    .GalleryLogements {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .Home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0;
+    }
+    .GalleryLogements {
+        background-color: transparent;
+        margin-left: 20px;
+        margin-top: 20px;
+        padding-top: 0;
+        border-radius: 10px;
+    }
+}
