@@ -7,7 +7,10 @@
 # Kasa-deployment
 Develop a web application with React and React Router.
 <br/>
+<br/>
 ![LOGO](./logo_header.png)<br/>
+<br/>
+<br/>
 Project 11 "Kasa" from React JS Application Developer Training.
 ##
 Skills developed:
